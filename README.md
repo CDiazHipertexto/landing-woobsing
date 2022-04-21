@@ -1,16 +1,11 @@
 # Woobsing
 Prueba técnica/Proceso de selección
 
-# Paso para correr el proyecto local
-
-## 1 Clonar
+## Clonar
 ```
-git clone https://github.com/CDiazHipertexto/asegurados.git
+git clone https://github.com/CDiazHipertexto/landing-woobsing.git
 
-## Se desarrollo con
 ```
 ### Proyecto con VUE, sintaxis html5, css3, JavaScript
 
-
-### Customize configuration
 
