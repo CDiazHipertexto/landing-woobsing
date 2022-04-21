@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woobsing - Landing</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta name="description" content="EAN - Catalogo Editorial" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content=""/>
+
+    <!--Frameworks-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/vueperslides"></script>
+    <link href="https://unpkg.com/vueperslides/dist/vueperslides.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app">
+        <header>
+            <div class="container-fluid p-0">
+                <div class="d-grid-ld">
+                    <div class="wrapper--logo bg-secondary">
+                        <a href="#">
+                            <img src="assets/img/logo-landing.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrapper--display">
+                        <div class="info">
+                            <h3 class="text-blue">Curso Virtual</h3>
+                            <ul class="text-blue">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wrapper--social-media">
+                        <div class="wrapper-block">
+                            <div class="mb-2">
+                                <p>Síguenos</p>
+                            </div>
+                            <div class="wrapper-products">
+                                <div class="item-product">
+                                    <input id="check01" type="checkbox" name="check" value="1">
+                                    <label for="check01" class="wrapper-card radio">
+                                        <img src="assets/img/fb-icon.svg" alt="fb" width="100%">
+                                        <p>Facebook</p>
+                                    </label>
+                                </div>
+                                <div class="item-product">
+                                    <input id="check02" type="checkbox" name="check" value="2">
+                                    <label for="check02" class="wrapper-card radio">
+                                        <img src="assets/img/tw-icon.svg" alt="tw" width="100%">
+                                        <p>Twitter</p>
+                                    </label>
+                                </div>
+                                <div class="item-product">
+                                    <input id="check03" type="checkbox" name="check" value="3">
+                                    <label for="check03" class="wrapper-card radio">
+                                        <img src="assets/img/ig-icon.svg" alt="ig" width="100%">
+                                        <p>Instragram</p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="hero" class="hero-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12 p-0">
+                        <div class="row p-relative">
+                            <div class="col-lg-5 d-none d-xl-block">
+                                <div class="wrapper--hero-home-image">
+                                    <picture>
+                                        <img src="assets/img/character-women.webp" alt="" class="image-class hero-home-character">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-7 col-lg-7 col-md-12">
+                                <div class="d-flex-wrapp-tex">
+                                    <div class="wrapper-hero-text">
+                                        <h1 class="hero-home-page__h1 text-blue">Capacítate <span class="color-primary">gratis</span> Lorem ipsum</h1>
+                                        <h4 class="hero-home-page__h1 color-primary">Inscríbete ahora</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper--features w-100">
+                                <ul class="list__features">
+                                    <li class="feature--item">
+                                        <i class="fa fa-check"></i>
+                                        <p>Lorem ipsum</p>
+                                    </li>
+                                    <li class="feature--item">
+                                        <i class="fa fa-check"></i>
+                                        <p>Lorem ipsum</p>
+                                    </li>
+                                    <li class="feature--item">
+                                        <i class="fa fa-check"></i>
+                                        <p>Lorem ipsum</p>
+                                    </li>
+                                    <li class="feature--item bg-primary">
+                                        <p>Lorem ipsum</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="wrapper--lead-form bg-secondary">
+                            <h2 class="lead-form-title">¡Inscríbase <span class="color-primary uppercase">GRATIS</span>!</h2>
+                            <form>
+                                <div class="container-fluid p-0 h-100">
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_name === null ? '' : !nameValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el celular">
+                                                <input class="landing-cpa--input" type="text" v-model="user_name" name="user_name" />
+                                                <span class="fas fa-user focus-input2" v-bind:class="{ 'float': !!(user_name) }" data-placeholder="Nombre*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!nameValid">
+                                                <p v-html="'¡Ingresa Nombre!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_cc === null ? '' : !ccValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el celular">
+                                                <input class="landing-cpa--input" type="number" v-model="user_cc" name="user_cc" />
+                                                <span class="fas fa-envelope focus-input2" v-bind:class="{ 'float': !!(user_cc) }" data-placeholder="Número de documento*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!ccValid">
+                                                <p v-html="'¡Ingresa Documento!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_skill === null ? '' : !skillValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el celular">
+                                                <input class="landing-cpa--input" type="text" v-model="user_skill" name="user_skill" />
+                                                <span class="fas fa-envelope focus-input2" v-bind:class="{ 'float': !!(user_skill) }" data-placeholder="Profesión*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!skillValid">
+                                                <p v-html="'¡Ingresa Profesión!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_business === null ? '' : !businessValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el celular">
+                                                <input class="landing-cpa--input" type="text" v-model="user_business" name="user_business" />
+                                                <span class="fas fa-envelope focus-input2" v-bind:class="{ 'float': !!(user_business) }" data-placeholder="Entidad donde labora*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!businessValid">
+                                                <p v-html="'¡Ingresa Entidad!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_mobile === null ? '' : !mobileValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el celular">
+                                                <input class="landing-cpa--input" type="number" v-model="user_mobile" name="user_mobile" />
+                                                <span class="fas fa-envelope focus-input2" v-bind:class="{ 'float': !!(user_mobile) }" data-placeholder="Celular*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!mobileValid">
+                                                <p v-html="'¡Ingresa celular!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12">
+                                            <div class="body--wrap validate-input" :class="(user_email === null ? '' : !emailValid ? 'alert-validate' : 'has-value')" data-validate="Se requiere el Email">
+                                                <input class="landing-cpa--input" type="email" v-model="user_email" name="user_email" />
+                                                <span class="fas fa-envelope focus-input2" v-bind:class="{ 'float': !!(user_email) }" data-placeholder="Email*:"></span>
+                                            </div>
+                                            <div class="ui-message-error" v-if="!emailValid">
+                                                <p v-html="'¡Ingresa email!'"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col pr col-12 text-center">
+                                            <a class="btn btn--orange btn-primary" @click.prevent="toLead">ENVIAR INSCRIPCIÓN</a>
+
+                                            <div class="alert alert-danger" role="alert"  v-if="msgErrr">Debes llenar todos los campos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content" style="color: #000;">
+                                            <div class="modal-header">
+                                                <p class="my-4">Gracias, tus datos ingresados fueron:</p>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul>
+                                                    <li>{{ user_name }}</li>
+                                                    <li>{{ user_cc }}</li>
+                                                    <li>{{ user_skill }}</li>
+                                                    <li>{{ user_business }}</li>
+                                                    <li>{{ user_mobile }}</li>
+                                                    <li>{{ user_email }}</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="enterprise-banner" class="py-5 bg-gray-light">
+            <div class="container">
+                <img class="img-ab callcenter-img" src="assets/img/callcenter.png" alt="">
+                <div class="row">
+                    <div class="col">
+                        <div class="wrapper-banner">
+                            <img src="assets/img/icon-graduated.svg" alt="">
+                            <p class="text-blue">ESPACIO LIBRE PARA INCLUIR CONTENIDO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="testimonials" class="my-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <vueper-slides
+                                class="no-shadow"
+                                :visible-slides="3"
+                                slide-multiple
+                                :gap="3"
+                                :slide-ratio="1 / 4"
+                                :dragging-distance="200"
+                                :breakpoints="breakpoints"
+                                :autoplay="true">
+                                <vueper-slide v-for="i in 10" :key="i">
+                                    <template #content>
+                                        <div class="content-item border-line">
+                                            <h5 class="text-blue">Lorem ipsum</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet nisl nisl, vitae consequat neque varius ac. Proin vel varius nisl, sed pellentesque ipsum. Donec porta dui sed sapien pellentesque consectetur.</p>
+                                        </div>
+                                    </template>
+                                </vueper-slide>
+                        </vueper-slides>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer id="footer">
+            <div class="container-fluid p-0">
+                <div class="wrapper--sub-footer">
+                    <div class="sub-footer__item bg-secondary">
+                        <p>ESPACIO INFORMACIÓN DE CONTACTO</p>
+                    </div>
+                    <div class="sub-footer__item bg-gray-light">
+                        <p>ESPACIO LIBRE PARA INCLUIR FOOTER</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-gray-dark">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="wrapper--copyright">
+                           <p>Copyright 2015 Diseño por Woobsing. Todos los derechos Reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        const { VueperSlides, VueperSlide } = vueperslides;
+        const app = new Vue({
+            el: '#app',
+            components: { VueperSlides, VueperSlide },
+            data( ) {
+                return {
+                    modalShow: false,
+                    msgErrr: false,
+                    value: null,
+
+                    user_name: null,
+                    user_cc: null,
+                    user_skill: null,
+                    user_business: null,
+                    user_mobile: null,
+                    user_email: null,
+
+                    emailNotExist: true,
+                    breakpoints: {
+                        //phone v
+                        325: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.15,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        346: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.16,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        388: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.17,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        403: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 1.19,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        409: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.18,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        451: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.2,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        481: {
+                            visibleSlides: 1,
+                            slideRatio: 1 / 2.22,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        514: {
+                            visibleSlides: 2,
+                            slideRatio: 1 / 2.76,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        551: {
+                            visibleSlides: 2,
+                            slideRatio: 1 / 1.78,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        595: {
+                            visibleSlides: 2,
+                            slideRatio: 1 / 2.80,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        670: {
+                            visibleSlides: 2,
+                            slideRatio: 1 / 2.82,
+                            touchable: true,
+                            bullets: true
+                        },
+                        //tablet v y phone h
+                        769: {
+                            visibleSlides: 2,
+                            slideRatio: 1 / 2.85,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        818: {
+                            visibleSlides: 3,
+                            slideRatio: 1 / 2.95,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        992: {
+                            visibleSlides: 3,
+                            slideRatio: 1 / 2.95,
+                            touchable: true,
+                            arrows: false,
+                            bullets: true
+                        },
+                        //portatil y tablet h
+                        1025: {
+                            touchable: true,
+                            visibleSlides: 4,
+                            slideRatio: 1 / 3,
+                            arrows: false,
+                            bullets: false
+                        },
+                        1087: {
+                            touchable: true,
+                            visibleSlides: 4,
+                            slideRatio: 1 / 3.6,
+                            arrows: false,
+                            bullets: false
+                        },
+                        1308: {
+                            touchable: true,
+                            visibleSlides: 4,
+                            slideRatio: 1 / 3.7,
+                            arrows: false,
+                            bullets: false
+                        },
+                        //portail
+                        1681: {
+                            touchable: true,
+                            visibleSlides: 5,
+                            slideRatio: 1 / 3.8,
+                            arrows: false,
+                            bullets: false
+                        },
+                        // desktops
+                        1920: {
+                            touchable: true,
+                            visibleSlides: 5,
+                            slideRatio: 1 / 5,
+                            arrows: false,
+                            bullets: false
+                        },
+                        2154: {
+                            touchable: true,
+                            slideRatio: 1 / 5,
+                            arrows: false,
+                            bullets: false
+                        },
+                        2560: {
+                            touchable: true,
+                            slideRatio: 1 / 5.3,
+                            arrows: false,
+                            bullets: false
+                        }
+                    },
+                }
+            },
+            methods: {
+                toLead(){
+                    let valid = true;
+                    if (this.user_name === null){
+                        this.user_name = ''
+                        valid = false;
+                    }
+                    if (this.user_cc === null){
+                        this.user_cc = ''
+                        valid = false;
+                    }
+                    if (this.user_skill === null){
+                        this.user_skill = ''
+                        valid = false;
+                    }
+                    if (this.user_business === null) {
+                        this.user_business = ''
+                    }
+                    if (this.user_mobile === null) {
+                        this.user_mobile = ''
+                    }
+                    if (this.user_email === null) {
+                        this.user_email = ''
+                    }
+                    if (this.nameValid && this.ccValid && this.skillValid && this.businessValid && this.mobileValid && this.emailValid) {
+                        console.log('entre popup');
+                        let myModal = new bootstrap.Modal(document.getElementById("staticBackdrop"), {});
+                        myModal.show();
+                        this.msgErrr = false
+
+                    } else {
+                        this.msgErrr = true
+                    }
+                },
+                validateFields ( value, type ) {
+                    let result = true;
+                    let regExpEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    // let regExpMobil = /^[0-9]{12,13}$/;
+
+                    if ( type === 'email') {
+                        if ( !regExpEmail.test( value ) ) {
+                            result = false;
+                        } else {
+                            result = true;
+                        }
+                    }
+                    return result
+                }
+            },
+            computed: {
+
+                nameValid(){
+                    return !(this.user_name === '')
+                },
+                ccValid(){
+                    return !(this.user_cc === '')
+                },
+                skillValid(){
+                    return !(this.user_skill === '')
+                },
+                businessValid(){
+                    return !(this.user_business === '')
+                },
+                mobileValid(){
+                    return !(this.user_mobile === '')
+                },
+                emailValid () {
+                    let valid = false;
+                    if (this.user_email === null) {
+                        valid = true
+                    }else if(!this.emailNotExist) {
+                        valid = false;
+                    }else {
+                        valid = this.validateFields ( this.user_email , 'email' );
+                    }
+                    return valid
+                },
+            },
+            mounted() {
+
+            },
+            watch: {
+
+            }
+
+        });
+
+    </script>
+
+    <style scoped>
+
+    </style>
+</body>
+</html>
